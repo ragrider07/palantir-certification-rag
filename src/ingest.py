@@ -2,40 +2,48 @@ import os
 from pypdf import PdfReader
 
 RAW_DIR = "data/raw"
+WEB_DIR = "data/raw/web"
 OUT_FILE = "data/processed/documents.txt"
-
-def read_pdf(path):
-    reader = PdfReader(path)
-    pages = []
-    for page in reader.pages:
-        text = page.extract_text()
-        if text:
-            pages.append(text)
-    return "\n".join(pages)
-
-def read_text(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
-
-documents = []
-
-for filename in os.listdir(RAW_DIR):
-    path = os.path.join(RAW_DIR, filename)
-
-    if filename.lower().endswith(".pdf"):
-        print(f"Reading PDF: {filename}")
-        documents.append(read_pdf(path))
-
-    elif filename.lower().endswith((".txt", ".md")):
-        print(f"Reading text: {filename}")
-        documents.append(read_text(path))
 
 os.makedirs("data/processed", exist_ok=True)
 
-with open(OUT_FILE, "w", encoding="utf-8") as f:
-    f.write("\n\n".join(documents))
+all_text = []
 
-print("Ingestion complete.")
+def read_txt_files(directory):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".txt"):
+                path = os.path.join(root, file)
+                with open(path, "r", encoding="utf-8", errors="ignore") as f:
+                    text = f.read().strip()
+                    if text:
+                        all_text.append(text)
+
+def read_pdf_files(directory):
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".pdf"):
+                path = os.path.join(root, file)
+                reader = PdfReader(path)
+                for page in reader.pages:
+                    text = page.extract_text()
+                    if text:
+                        all_text.append(text)
+
+# Read local raw text
+read_txt_files(RAW_DIR)
+
+# Read web-ingested text
+if os.path.exists(WEB_DIR):
+    read_txt_files(WEB_DIR)
+
+# Read PDFs (if any)
+read_pdf_files(RAW_DIR)
+
+with open(OUT_FILE, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(all_text))
+
+print(f"Ingested {len(all_text)} documents into {OUT_FILE}")
 
 
 

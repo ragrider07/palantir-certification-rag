@@ -63,7 +63,10 @@ URLS = [
 "https://quizlet.com/991711798/palantir-data-engineering-certification-exam-flashcards/?utm_source=chatgpt.com",
 "https://quizlet.com/990528237/palantir-application-developer-flash-cards/?utm_source=chatgpt.com",
 "https://www.udemy.com/course/ace-foundry-decx/?srsltid=AfmBOoo",
-"https://community.palantir.com/t/mock-exams-for-palantir-data-engineer-certification/4776?utm_source=chatgpt.com"
+"https://community.palantir.com/t/mock-exams-for-palantir-data-engineer-certification/4776?utm_source=chatgpt.com",
+"https://www.perplexity.ai/search/0a687caa-5a4d-4c1d-b2cf-cb4073c17a04",
+"https://www.perplexity.ai/search/2fc0f550-76f7-49b7-8761-55c917f4eb52",
+"https://www.perplexity.ai/search/f4b7e4f4-ce6d-4807-afbd-47d09b74a0be"
 ]
 
 for url in URLS:
