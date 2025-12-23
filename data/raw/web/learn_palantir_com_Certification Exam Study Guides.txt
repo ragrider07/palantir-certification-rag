@@ -1,0 +1,4 @@
+[URL: https://learn.palantir.com/page/exam-guides?utm_source=chatgpt.com]
+
+We have updated the Application Developer and Data Engineer Certifications to cover topics, questions, and screenshots relevant to the platform as of May 6, 2024.
+Select an exam guide below or register for a Certification Exam.

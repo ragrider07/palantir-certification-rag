@@ -1,0 +1,10 @@
+[URL: https://community.palantir.com/t/mock-exams-for-palantir-data-engineer-certification/4776?utm_source=chatgpt.com]
+
+Hey,
+Is there any availability of test papers to practice for the exam to get certified in Palantir Data Engineering?
+Would be glad to receive any guidance on how could I best prep for the test. I’ve just looked at the guide and have been studying the documentation and youtube videos.
+Best,
+Siddharth
+Is there a way to get certified without Taking Ontology ‘Official’ training course ?, like:
+Foundry Data Engineer Certification
+Powered by Discourse, best viewed with JavaScript enabled

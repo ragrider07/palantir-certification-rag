@@ -1,0 +1,5 @@
+[URL: https://learn.palantir.com/page/training-track-application-developer?utm_source=chatgpt.com]
+
+Application Developers in Foundry specialize in creating operational applications on top of the Ontology using tools like Workshop and Quiver. By building efficient and user-friendly applications, Application Developers play a crucial role in helping organizations unlock the full potential of their organization’s data in the Ontology and drive informed decision-making.
+The trainings and reference material below will enable you to gain hands-on experience in creating Ontology entities, designing Workshop applications, and applying write-backs using Actions - all core skills for Application Developers in Foundry.
+Use the resources below for an introduction to core Application Developer concepts. The items tagged Example are reference workflows you can deploy to your Foundry instance.

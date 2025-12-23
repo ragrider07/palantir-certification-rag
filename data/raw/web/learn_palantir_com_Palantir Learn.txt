@@ -1,0 +1,45 @@
+[URL: https://learn.palantir.com/?utm_source=chatgpt.com]
+
+©PALANTIR –––––––––- Learn
+All courses require access to Foundry. If your organization already works with Palantir, contact your administrator for access to your account. Otherwise, eligible individuals and organizations can get started by signing-up for a free Developer Tier account.
+Learn by building. Get started learning Foundry with the Speedrun: Your First End-to-End Workflow course. Build a notional workflow using core Foundry apps in 60 minutes or less.
+Sign up for a Palantir Learn account so you can keep building. Continue expanding your Foundry skills by jumping into one of our Training Tracks, or dive deep into specific use cases most relevant to your work.
+Data Engineer→
+Data Engineers prepare data for reliable use in the Ontology, ensuring quality data for downstream applications, GenAI-driven workflows, and overall decision making.
+Application Developer→
+Application Developers in Foundry use Workshop and Quiver to build user-friendly applications, unlocking data potential and aiding informed decision-making.
+AI Engineer→
+AI Engineers use Foundry and AIP to integrate data and design AI-enhanced workflows with LLMs, solving complex business challenges.
+Data Scientist→
+Data Scientists use Foundry's modeling tools to create, manage, and refine predictive models, perform statistical analysis, and visualize data findings.
+Frontend Developer→
+Frontend & OSDK Developers use the Ontology SDK to build custom application frontends or backends, leveraging Foundry as a backend service to securely accelerate application development.
+Data Analyst→
+Data Analysts use Foundry for data analysis and visualization using tools like Contour and Quiver, enabling insights without coding or complex algorithms.
+SD
+Get introduced to multiple Foundry and AIP applications by building quick workflows
+DD
+Go deep on specific applications like Workshop, Pipeline Builder, and Ontology Manager
+SG
+Experienced users can test their skills with an open-ended Foundry project
+Ready to show off your Foundry knowledge?Earn the Foundry & AIP Builder Foundations badge by completing a short quiz. Experienced users can become officially certified in a Foundry domain by taking a Foundry Certification Exam.
+Explore trending courses now ↘
+15-30 mins
+15 mins
+DD
+45-60 mins
+SR
+45-60 mins
+SR
+60-90 mins
+DD
+60-90 mins
+SR
+60-90 mins
+NP
+1-2 days
+Want to learn with the best? Join the Palantir Developer Community to engage with fellow builders, provide product feedback to Palantir engineers, showcase your latest work, and stay up-to-date with the latest developer content and event schedule. ↘
+▮ Start Exploring
+Download reference use cases, tutorials, and starter packs directly to your Foundry enrollment.
+Explore Palantir’s written documentation on workflows, applications, APIs and more.
+Enhance your learning with our curated YouTube channel featuring video tutorials.

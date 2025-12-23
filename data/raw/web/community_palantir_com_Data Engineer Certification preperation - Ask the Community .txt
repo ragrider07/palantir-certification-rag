@@ -1,0 +1,10 @@
+[URL: https://community.palantir.com/t/data-engineer-certification-preperation/2789?utm_source=chatgpt.com]
+
+If you could share any pointers regarding Data Engineer Certification preparation.
+I have seen the guide https://learn.palantir.com/data-engineer-guide-2023/1388785
+But, was thinking if you have any materials, best practices and mock up tests
+Hi @bedideanil - thank you for reaching out! The Exam Guide is currently all the preparation materials that we share publicly. I would also recommend looking through  topics covered on the Data Engineer Training Track. We also generally recommend users have a few months of independent work building on the platform in order to best prepare them for the exams; however, experience needs vary per user.
+Hope this helps!
+Garrett
+This topic was automatically closed 60 days after the last reply. New replies are no longer allowed.
+Powered by Discourse, best viewed with JavaScript enabled

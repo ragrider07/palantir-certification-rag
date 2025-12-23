@@ -1,0 +1,4 @@
+[URL: https://learn.palantir.com/page/training-track-data-engineer?utm_source=chatgpt.com]
+
+Data Engineers are responsible for making data assets useful, accessible, and reliable. They own ingesting data from various systems and transforming, cleaning, and enriching data so that it can be used reliably in the Ontology. The quality of downstream decisions, Ontologies, applications, GenAI-driven workflows relies on the work Data Engineers own in preparing data.
+Use the resources below for an introduction to core Data Engineer concepts. The items tagged Example are reference workflows you can deploy to your Foundry instance.
